@@ -5,7 +5,6 @@ const bodyparser = require("body-parser");
 const fileUpload = require("express-fileupload");
 const errorMiddleware = require("./middlewares/errors");
 // const dotenv = require("dotenv");
-const path = require("path");
 if (process.env.NODE_ENV !== "PRODUCTION") {
   require("dotenv").config({
     path: "server/config/config.env",
